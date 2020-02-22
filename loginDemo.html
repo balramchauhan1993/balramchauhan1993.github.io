@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="Stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"></style>
+        <link rel="Stylesheet" type="text/css" href="css/login.css"></style>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/593149a8c4.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/login.js"></script>
+    </head>
+    <body>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">
+            Show login modal
+        </button>
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-sm" role="document">
+              <div class="modal-content">
+                <div class="modal-body p-a-0">
+                    <div class="div-login-bg">
+                        <div class="div-login-bg-1"></div>                        
+                        <div class="div-login-bg-2"></div>
+                        <div class="login-main-div">
+                            <button type="button" class="close login-close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div id="divSignIn">
+                                <div class="login-header">
+                                    <h4>Login</h4>
+                                    <p>Don't have an account? <a onclick="SwitchLoginTab('R');">Create your account</a>.</p>
+                                </div>
+                                <hr/>
+                                <div class="login-body">
+                                    <div class="login-input-grp">
+                                        <input type="email" placeholder="Email" class="e-input">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                    <div class="login-input-grp">
+                                        <input type="password" placeholder="Password" class="e-input">
+                                        <i class="fas fa-lock"></i>
+                                    </div>
+                                    <div class="login-extra-grp">
+                                        <a class="forgotpass">Forgot Password?</a>
+                                    </div>
+                                    <div class="login-button-grp">
+                                        <button>Login</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="divSignUp" style="display: none;">
+                                <div class="login-header">
+                                    <h4>Register</h4>
+                                    <p>Already have an account? <a onclick="SwitchLoginTab('L');">Login to your account</a>.</p>
+                                </div>
+                                <hr/>
+                                <div class="login-body">
+                                    <div class="login-input-grp">
+                                        <input type="email" placeholder="Email" class="e-input">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                    <div class="login-input-grp">
+                                        <input type="password" placeholder="Password" class="e-input">
+                                        <i class="fas fa-lock"></i>
+                                    </div>
+                                    <div class="login-input-grp">
+                                        <input type="password" placeholder="Confirm Password" class="e-input">
+                                        <i class="fas fa-lock"></i>
+                                    </div>
+                                    <div class="login-button-grp">
+                                        <button>Register</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div class="login-footer">
+                                <p>Or Login with</p>
+                                <ul>
+                                    <li>
+                                        <a class="fb"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a class="twitter"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a class="gplus"><i class="fab fa-google-plus-g"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </body>
+</html>

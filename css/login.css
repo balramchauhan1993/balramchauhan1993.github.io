@@ -1,0 +1,192 @@
+.login-close{
+    font-size: 2em;
+    top: 0px;
+    right: 7px;
+    position: absolute;
+}
+.login-close:hover, .login-close:focus{
+    text-decoration:none;
+    outline: none;
+    box-shadow: none;
+}
+
+.login-header h4{
+    background: linear-gradient(to right, #5b2bff 0%, #13c9c9 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+.login-header p{
+    font-size: 12px;
+}
+
+.login-header p a{
+    color:red;
+    cursor:pointer;
+}
+.login-header p a:hover, .login-header p a:focus{
+    color:red;
+    text-decoration:none;
+    outline: none;
+    box-shadow: none;
+}
+
+.login-body .login-input-grp .e-input{
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #2196F3;
+    color: #2196F3;
+}
+
+.login-body .login-input-grp .e-input::placeholder{
+    color: #2196F3;
+}
+
+.login-body .login-input-grp .e-input:hover, .login-body .login-input-grp .e-input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.login-body .login-input-grp{
+    position: relative;
+    margin-bottom: 1.2em;
+}
+
+.login-body .login-input-grp i{
+    color: #23bbff;
+    position: absolute;
+    right: 0px;
+    top: 3px;
+    font-size: 1.4em;
+}
+
+.login-body .login-extra-grp{
+    text-align: right;
+    margin-bottom: 1.4em;
+}
+
+.login-body .login-button-grp{
+    text-align: center;
+    margin-bottom: 1.2em;
+}
+
+.login-body .login-button-grp button{
+    background: linear-gradient(to right, #305be3, #30c1e2);
+    color: white;
+    font-size: 1.2em;
+    min-width: 150px;
+    border: none;
+    padding: 5px 0 10px 0;
+    border-radius: 20px;
+    box-shadow: 0px 5px 8px 2px rgba(0, 30, 255, 0.33);
+}
+
+.login-body .login-button-grp button:focus,.login-body .login-button-grp button:hover{
+    color: white;
+    outline: none;
+    box-shadow: 0px 5px 8px 2px rgba(0, 30, 255, 0.33);
+}
+
+.login-body .login-extra-grp .forgotpass{
+    cursor:pointer;
+}
+
+.login-body .login-extra-grp .forgotpass:hover, .login-body .login-extra-grp .forgotpass:focus{
+    text-decoration:none;
+    outline: none;
+    box-shadow: none;
+}
+
+hr{
+    width: 75%;
+}
+
+.login-footer p{
+    text-align: center;
+    color: gray;
+}
+
+.login-footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.login-footer ul li{
+    display:inline;
+}
+
+.login-footer ul li a:hover,.login-footer ul li a:focus{
+    text-decoration:none;
+    outline: none;
+    color:white;
+}
+
+.login-footer ul li a{
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.login-footer ul li .fb{
+    background-color: #0019fc;
+    padding: 5px 20px;
+    box-shadow: 0px 5px 8px 2px rgba(0, 25, 252, 0.4);
+}
+
+.login-footer ul li .twitter{
+    background-color: #2196F3;
+    padding: 5px 17px;
+    box-shadow: 0px 5px 8px 2px rgba(33, 150, 243, 0.4);
+}
+
+.login-footer ul li .gplus{
+    background-color: #e70000;
+    padding: 5px 17px;
+    box-shadow: 0px 5px 8px 2px rgba(231, 0, 0, 0.4);
+}
+
+.p-a-0{
+    padding:0;
+}
+
+.login-main-div{
+    background-color: white;
+    padding-bottom: 100px !important;
+    padding:1rem;
+    border-bottom-left-radius: 200px;
+    z-index: 1500;
+    position: relative;
+}
+
+.div-login-bg{
+    background: linear-gradient(to bottom, #635eff 50%, #ec4fff 100%);
+}
+
+.div-login-bg .div-login-bg-1{
+    background-color: white;
+    position: absolute;
+    bottom: 17px;
+    left: 25px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    width: 250px;
+    height: 150px;
+    transform: rotate(-14deg);
+    z-index: 1050;
+}
+
+.div-login-bg .div-login-bg-2{
+    background: linear-gradient(to right, #e84fff00 0%, #e84fff 27%, #e84fff 100%);
+    position: absolute;
+    bottom: 0;
+    right: 1px;
+    border-top-right-radius: 20px;
+    width: 250px;
+    height: 20px;
+    transform: rotate(0deg);
+    z-index: 1501;
+}
